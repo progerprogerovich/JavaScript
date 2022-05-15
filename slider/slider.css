@@ -1,0 +1,173 @@
+body{
+	background: url(color__background.jpg);
+	display: flex;
+	font-family: 'Montserrat',sans-serif;
+
+}
+
+.slider{
+position: relative;
+width: 320px;
+height: 369px;
+left: 560px;
+top: 100px;
+background: #FFFFFF;
+border: 1px solid rgba(31, 32, 65, 0.25);
+box-sizing: border-box;
+box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+border-radius: 4px;
+}
+
+.flex{
+  display: flex;
+}
+
+
+.calendar__august{
+position: absolute;
+left: 101px;
+top: 17px;
+font-style: normal;
+font-weight: 700;
+font-size: 19px;
+line-height: 23px;
+/* identical to box height */
+text-align: center;
+/* Dark 100% */
+color: #1F2041;
+}
+
+.calendar__september{
+position: absolute;
+left: 101px;
+top: 17px;
+font-style: normal;
+font-weight: 700;
+font-size: 19px;
+line-height: 23px;
+/* identical to box height */
+text-align: center;    
+/* Dark 100% */    
+color: #1F2041;
+}
+
+
+.days{
+position: absolute;
+top: 74px;
+width: 279.39px;
+height: 240px;
+left: 20.94px;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+/* Primary Color */
+color: #BC9CFF;
+}
+
+th{
+width: 39.88px;
+height: 40px;
+}
+
+.greycolor{
+/* Dark 25% */
+color: rgba(31, 32, 65, 0.25);
+
+}
+
+.th_gradient{
+background: linear-gradient(180deg, #6FCF97 0%, #66D2EA 100%);
+border-radius: 22px;
+color: #FFFFFF;
+}
+
+.gradient__1{
+position: absolute;
+width: 159.5px;
+height: 42px;
+top: 252px;
+left: 41.14px;
+/* Primary Gradient */
+background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+opacity: 0.25;
+}
+
+.gradient__2{
+background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+border-radius: 22px;
+color: #FFFFFF;
+}
+
+
+
+.gradient__3{
+background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+border-radius: 22px;
+color: #FFFFFF;
+}
+
+
+.clear{
+position: absolute;
+width: 72px;
+height: 15px;
+top: 334px;
+left: 20px;
+}
+
+.clear_text{
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 15px;
+color: #BC9CFF;
+}
+
+.apply{
+position: absolute;
+width: 72px;
+height: 15px;
+top: 334px;
+left: 216px;
+}
+
+.apply_text{
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 15px;
+color: #BC9CFF;
+}
+
+
+.month.curry{
+display: block;
+}
+
+.month{
+display: none;
+}
+
+.month:first-child{
+width: 320px;
+}
+
+.month:nth-child(2){
+width: 320px;
+}
+
+.buttonUp{
+position: absolute;
+top: 20px;
+left: 275.4px;
+cursor: pointer;
+}
+
+.buttonBack{
+position: absolute;
+top: 20px;
+left: 20px;
+cursor: pointer;
+}
